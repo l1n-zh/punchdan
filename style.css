@@ -15,9 +15,14 @@ body{
 }
 
 text {
+  user-select: none;
   font-family: 'RoundsBlack';
   color: white;
   -webkit-text-stroke: 3px black;
+}
+
+img {
+  user-select: none;
 }
 
 #background {
