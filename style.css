@@ -10,6 +10,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  height:100vh;
+  width: 100vw;
 }
 
 text {
@@ -47,4 +49,24 @@ text {
   background-color: white;
   height: 60px;
   width:60px;
+}
+
+@media (max-width: 700px){
+  #dan {
+    height: auto;
+    width: 60vw;
+  }
+  #title {
+    font-size: 11vw;
+  }
+}
+
+@media (max-height: 500px){
+  #dan {
+    width: auto;
+    height: 250px;
+  }
+  #title {
+    font-size: 11vw;
+  }
 }
