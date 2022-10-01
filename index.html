@@ -5,10 +5,17 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./main.js"></script>
   </head>
-  <body onpointerdown="punch()" onpointerup="punch()" onkeyup="release()" onmouseup="release()">
+  <body
+    onpointerdown="punch()"
+    onpointerup="release()"
+    onmousedown="punch()"
+    onmouseup="release()"
+    onkeydown="punch()"
+    onkeyup="release()"
+  >
     <text id="title">PUNCH DAN</text>
-    <img id="background" src="assets/background.jpg" >
+    <img id="background" src="assets/background.jpg" />
     <text id="counter">0</text>
-    <img id="dan" src="assets/normal.png">
+    <img id="dan" src="assets/normal.png" />
   </body>
 </html>
