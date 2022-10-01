@@ -1,19 +1,16 @@
 var count = 0;
-var record = 0;
 var normalImg = "./assets/normal.png";
 var punched = false;
 
 setInterval(() => {
   if (count > 820)
     normalImg = "./assets/red.png";
-  record = 0;
 }, 10000);
 
 function punch() {
   if (punched) return;
   punched = true;
   ++count;
-  ++record;
   const counter = document.getElementById('counter');
   counter.style.rotate = `${(Math.random() - 0.5)/10}turn`;
   counter.style.scale = "1.3";
