@@ -1,7 +1,7 @@
 var count = 0;
 var record = 0;
 var normalImg = "./assets/normal.png";
-
+var punched = false;
 
 setInterval(() => {
   if (count > 820)
