@@ -1,15 +1,7 @@
-
 var count = 0;
 var record = 0;
 var normalImg = "./assets/normal.png";
 
-var punched = false;
-// window.onload = () => {
-//   const checkBox = document.createElement("div");
-//   checkBox.type = "checkbox";
-//   checkBox.textContent = "0";
-//   document.getElementById('panel').appendChild(checkBox);
-// }
 
 setInterval(() => {
   if (count > 820)
