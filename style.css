@@ -38,7 +38,7 @@ text {
 
 #dan {
   position: absolute;
-  height: 600px;
+  height: 60vh;
   object-fit: cover;
   bottom: 0;
 }
