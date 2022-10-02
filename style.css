@@ -5,7 +5,7 @@
     url("./assets/fonts/RoundsBlack.eot") format("embedded-opentype");
 }
 
-body{
+body {
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ body{
 
 text {
   user-select: none;
-  font-family: 'RoundsBlack';
+  font-family: "RoundsBlack";
   color: white;
   -webkit-text-stroke: 3px black;
 }
@@ -51,10 +51,10 @@ img {
 #panel {
   background-color: white;
   height: 60px;
-  width:60px;
+  width: 60px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
   #dan {
     height: auto;
     width: 60vw;
@@ -64,7 +64,7 @@ img {
   }
 }
 
-@media (max-height: 500px){
+@media (max-height: 500px) {
   #dan {
     width: auto;
     height: 250px;
